@@ -117,8 +117,9 @@ jungsoo1(jungsoo1: 3, jungsoo2: 5)
 
 //실수를 하나 입력받아서 소수점 첫번재 자리에서 반올림 후 정수를 반환해주는 함수
 func silsoo(sil: Double) -> Int{
-    print(sil)
-    let sil1 = Int(sil)
-    return sil1
+ //   print(sil)
+ //   let sil1 = Int(sil)
+//    return sil1
+    return Int(sil + 0.5)
 }
-silsoo(sil: 5.4)
+silsoo(sil: 5.6)
