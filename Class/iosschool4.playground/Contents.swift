@@ -174,13 +174,16 @@ func moregrade(grade1: String, grade2: String, grade3: String, grade4: String) -
 moregrade(grade1: "B", grade2: "A", grade3: "C", grade4: "D")
 //윤년 구하기 문제(년도를 받아서 윤년인지 아닌지 판단하는 함수)
 func wun(year: Int) {
-//    let yearwun1 = year % 4
-//    let yearwun2 = Double(year) * 0.01
-//    let yearwun3 = Int(yearwun2) % 10
+    let yearwun1 = year % 4
+    let yearwun2 = Double(year) * 0.01
+    let yearwun3 = Int(yearwun2) % 10
   
-//    if yearwun3 == 0 {
- //      print("윤년이 아닙니다")
-  //  }
+    if yearwun1 == 0 && (yearwun3 == 0 || yearwun3 == 4) {
+        print("윤년")
+        
+    }else{
+        print("윤년X")
+    }
     
   //  else if yearwun1 == 0 {
    //     print("윤년입니다")
@@ -188,30 +191,32 @@ func wun(year: Int) {
    // else {
     //    print("윤년이 아닙니다")
    // }
-    if year % 100 == 0 {
-        if year % 400 == 0{
-            print("윤년입니다.")
-        }
-        else{
-            print("윤년이아닙니다.")
-        }
-    }
-    else if year % 4 == 0 {
-        print("윤년입니다.")
-    }
-    else {
-        print("윤년이아닙니다.")
-    }
+//    if year % 100 == 0 {
+//        if year % 400 == 0{
+//            print("윤년입니다.")
+//        }
+//        else{
+//            print("윤년이아닙니다.")
+//        }
+//    }
+//    else if year % 4 == 0 {
+//        print("윤년입니다.")
+//    }
+//    else {
+//        print("윤년이아닙니다.")
+//    }
     
 }
-wun(year: 2016)
+wun(year: 2800)
 //세 수를 입력받아 그 곱이 양수이면 true, 0 혹은 음수이면 false, 둘 다 아니면 에러를 발생시키는 함수를 작성하세요.
 func yang(yang1: Int, yang2: Int, yang3: Int) -> Bool{
     let yanghab = yang1 * yang2 * yang3
     let yanghab1 = yanghab > 0 ? true : false
-    return yanghab1
-    
     print ("삐빅 에러입니당")
+    return yanghab1
+ 
+    
+    
 
     
 }
@@ -312,7 +317,7 @@ func Dohung(_ A: Double, _ B: Double, _ H: Double) -> Double{
     default:
         area = 0
     }
-    return area
+        return area
 }
 
 Dohung(2, 4, 2)
@@ -418,6 +423,9 @@ func twojung1(jung1: Int, jung2: Int) -> Double{
 }
 twojung1(jung1: 6, jung2: 2)
 //시험점수를 입력받아 대학교 grade로 나눠서 반환해주는 함수 (ex: 95 >>> "A+"  /// 80 >>> "B")
+//func sihum(su: Int, )
+
+
 //위에 했습니다
 
 
