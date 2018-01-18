@@ -126,9 +126,76 @@ func q1(soo1: Int, soo2: Int) -> Int{
 }
 q1(soo1: 2, soo2: 3)
 //    정수를 받아서 각 자리의 합을 반환해주는 함수(ex: 312 >>> 6)
+func  q2(soo: Int) -> Int{
+    var sum = 0
+    var soo1 = soo
+    while soo1 > 0{
+        let soo2 = soo1 % 10
+        soo1 = soo1 / 10
+        sum += soo2
+    }
+    return sum
+}
+q2(soo: 3125)
 //    정수 하나를 받아서 1부터 정수까지의 숫자중 짝수를 모두 출력해주는 함수
+func q3(soo: Int){
+    for soo1 in 1...soo{
+        if soo1 % 2 == 0{
+            print("짝수\(soo1)")
+        }
+    }
+}
+q3(soo: 5)
 //    100 이하의 자연수 중 3과 5의 공배수를 모두 출력하는 함수
+func q4(soo: Int, soo1: Int) {
+    var str = ""
+    var sum = 0
+    for hab in 1...100{
+        if hab % soo == 0 && hab % soo1 == 0 {
+            sum = hab
+            str += String(sum) + " "
+ 
+        }
+    }
+           print("\(str)")
+}
+q4(soo: 3, soo1: 5)
 //    정수 하나를 받아서 그 정수의 약수를 출력하는 함수
+func q5(soo: Int) {
+    var sum = ""
+    for soo1 in 1...soo{
+        if  soo % soo1 == 0{
+            sum += String(soo1) + " "
+        }
+    }
+    print ("\(sum)")
+}
+q5(soo: 5)
 //    2 이상의 정수를 입력받아, 그 수가 소수인지 아닌지를 판별하는 함수
+func q6(soo: Int) -> Bool{
+    let soo2 = soo - 1
+    for soo1 in 2 ... soo2{
+        if soo % soo1 == 0{
+            return false
+        }
+    }
+    return true
+}
+q6(soo: 8)
+
+11
+ 23
+  58
 //    정수 하나를 입력받아서 입력받은 수 번째 피보나치 수를 반환하는 함수를 작성하세요. (ex: 3 >>> 2, 7 >>> 13)
+//func q7(soo: Int) ->  Int {
+//    var first = 1
+//    var second = 1
+//    let soo1 = soo - 1
+//    for _ in 2...soo1{
+//        first += second
+//        second = second + first
+//    }
+//    return first
+//}
+//q7(soo: 7)
 
