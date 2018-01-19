@@ -184,28 +184,7 @@ func wun(year: Int) {
     }else{
         print("윤년X")
     }
-    
-  //  else if yearwun1 == 0 {
-   //     print("윤년입니다")
-   // }
-   // else {
-    //    print("윤년이 아닙니다")
-   // }
-//    if year % 100 == 0 {
-//        if year % 400 == 0{
-//            print("윤년입니다.")
-//        }
-//        else{
-//            print("윤년이아닙니다.")
-//        }
-//    }
-//    else if year % 4 == 0 {
-//        print("윤년입니다.")
-//    }
-//    else {
-//        print("윤년이아닙니다.")
-//    }
-    
+   
 }
 wun(year: 2800)
 //세 수를 입력받아 그 곱이 양수이면 true, 0 혹은 음수이면 false, 둘 다 아니면 에러를 발생시키는 함수를 작성하세요.
@@ -215,10 +194,6 @@ func yang(yang1: Int, yang2: Int, yang3: Int) -> Bool{
     print ("삐빅 에러입니당")
     return yanghab1
  
-    
-    
-
-    
 }
 
 yang(yang1: 3, yang2: 2, yang3: -1)

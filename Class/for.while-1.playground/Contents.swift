@@ -139,33 +139,3 @@ ibof(999999999999999)
     }
   isHarshad(num: 30)
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-// func hasha(jung: Int) -> Bool{
-//    var temp:Int = jung
-//    var sum: Int = 0
-//
-//    for _ in 1...String(jung).count
-//    {
-//        sum += temp%10
-//        temp /= 10
-//    }
-//
-//    if jung%sum == 0 {
-//        return true
-//    } else
-//    {
-//        return false
-//    }
-//
-    
-    
-    

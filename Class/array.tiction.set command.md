@@ -1,12 +1,7 @@
-print(A, terminator: " ")
+print(변수, terminator: " ")
 줄 넘기기가 아니라 연결해서 출력하기
 
-
-person 이란?
-
-레퍼넌스?
-
-shift command o
+shift +  command + o   --> 설명보기
 
 set은 묶어서 끄집어내야함
 순서가 없고 중복(1,1)도 없다
