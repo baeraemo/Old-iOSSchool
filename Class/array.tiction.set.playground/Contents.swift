@@ -97,14 +97,41 @@ func q4(soo1: [Int]) -> [Int] {
 q4(soo1: [1,2,3,4,4,5,5,6,7,8,8,9])
 //정수 배열을 입력받아, 배열의 요소 중 두 개를 선택하는 조합을 모두 포함하는 배열을 작성하세요.
 //>> [1, 2, 3] -> [[1, 2], [1, 3], [2, 3]]
-func q5(soo1: [Int]){
-    let soocount = soo1.count - 1
-    for _ in 0...soocount {
-
+func q5(soo1: [Int]) -> [Int]{
+    let soo = soo1
+    var soo2 = soo1
+    var hab: [Int]  = []
+    for n in soo {
+        soo2.remove(at: 0)
+        for a in soo2{
+            hab.append(n)
+            hab.append(a)
+        
+        }
     }
+    print(hab)
+    return hab
 }
-q5(soo1: [1,2,3])
+q5(soo1: [1,2,3,4])
 //Level 3
 //정수 타입의 배열을 입력받아서 오름차순으로 정렬된 배열을 만들어 리턴하시오.(정렬 함수 사용x)   (정렬의 효율은 보지 않습니다.)
+////미완성
+func q6(soo: [Int]){
+    var soo1 = soo
+    var soo11 = soo
+    var min = 0
+    soo11.remove(at: 0)
+    for n in soo1{
+        var na = n
+        for a in soo11{
+            var aa = a
+            if na < aa{
+                min = na
+                print (min, terminator: "")
+            }
+        }
+    }
+}
+q6(soo: [3,4,5,1,2,6])
 //>>에라토스테체 알고리즘을 이용하여  입력된 숫자까지의 모든 소수의 배열을 반환하는 함수
 
