@@ -21,8 +21,30 @@ class ViewController: UIViewController {
     {
         //랜덤으로 숫자를 얻어내서 시크릿 번호 3개 알아내기
         var randomNumberList:[Int] = []
+        var soo = 0
+        while soo < 3 {
         let randomNum:Int = Int(arc4random_uniform(10))
-        
+            randomNumberList.append(randomNum)
+            print(randomNumberList)
+                if soo == 1 && randomNumberList[0] == randomNumberList[1]{
+                    randomNumberList = []
+                    soo = 0
+                    continue
+                }
+                else if soo == 2 && randomNumberList[0] == randomNumberList[2]{
+                    randomNumberList = []
+                    soo = 0
+                    continue
+                }
+                else if soo == 2 && randomNumberList[1] == randomNumberList[2]{
+                    randomNumberList = []
+                    soo = 0
+                    continue
+                }
+
+            soo += 1
+            
+        }
         /***************
         //랜덤 숫자 얻는 코드! 10 = 0~9까지는 랜덤숫자한개
          let randomNum:Int = Int(arc4random_uniform(10))
@@ -48,7 +70,30 @@ class ViewController: UIViewController {
         
         //카운트 구하기
         //사용자가 말한 answer와 정답인 리스트 두개의 리스트를 비교해서
-        //스트라이크, 볼, 아웃 카운트 정하기
+        //        //스트라이크, 볼, 아웃 카운트 정하기
+        for a in 0...2{
+            if answer[a] == correctAnswer[a]{
+                
+                strikeCount += 1
+
+            }else if answer[a] == correctAnswer[0]{
+                
+                ballCount += 1
+                
+            }else if answer[a] == correctAnswer[1]{
+                
+                ballCount += 1
+                
+            }else if answer[a] == correctAnswer[2]{
+                
+                ballCount += 1
+                
+            }else{
+                
+                outCount += 1
+                
+            }
+        }
         /**************
         
         
@@ -80,6 +125,10 @@ class ViewController: UIViewController {
     private func clear()
     {
        //선택된 숫자 리스트 리셋
+        
+        selectedNumberList = []
+        
+        
         /*********
  
          ////구현되어야 하는 부분
@@ -102,14 +151,23 @@ class ViewController: UIViewController {
     {
         //answer -> Int로 변경하기
         //밑에 문제를 해결후 주석 풀어 주세요
-//        let answerStr = changeStrFrom(list:answer)
-//        let text = answerStr + "의 결과 값은 \(score)입니다."
+        let answerStr = changeStrFrom(list:answer)
+        let text = answerStr + "의 결과 값은 \(score)입니다."
         
         //저장
-//        historyText += text + "\n"
-//        historyTextView.text = historyText
+        historyText += text + "\n"
+        historyTextView.text = historyText
     }
-    
+    func changeStrFrom(list:[Int]) -> String
+    {
+        var inta = 0
+        var stra = ""
+        for a in 0...2 {
+         inta = list[a]
+         stra += String(inta)
+        }
+       return stra
+    }
     //배열의 내용을 스트링으로 변환 해주는 함수
     //ex : input [1,2,3] output "123"
     /*********
@@ -219,6 +277,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         selectNumLBList = [selecNum1LB,selecNum2LB,selecNum3LB]
+        print(makeRandomNumber())
+        
     }
     
     
