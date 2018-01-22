@@ -181,21 +181,23 @@ func q6(soo: Int) -> Bool{
     }
     return true
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
 q6(soo: 8)
 
 11
  23
   58
 //    정수 하나를 입력받아서 입력받은 수 번째 피보나치 수를 반환하는 함수를 작성하세요. (ex: 3 >>> 2, 7 >>> 13)
-//func q7(soo: Int) ->  Int {
-//    var first = 1
-//    var second = 1
-//    let soo1 = soo - 1
-//    for _ in 2...soo1{
-//        first += second
-//        second = second + first
-//    }
-//    return first
-//}
-//q7(soo: 7)
+func q7(soo: Int) ->  Int {
+    var first = 1
+    var second = 1
+    for _ in 1..<soo{
+        let temp = second
+        second += first
+        first = temp
+    }
+    return first
+}
+q7(soo: 7)
 

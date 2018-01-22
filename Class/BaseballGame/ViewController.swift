@@ -94,6 +94,22 @@ class ViewController: UIViewController {
                 
             }
         }
+        
+//        for index in 0..<answer.count{
+//            let answervalue = answer[index]
+//            if correctAnswer.contains(answervalue){
+//                if answervalue == correctAnswer[index]{
+//                    strikeCount += 1
+//                }
+//                else {
+//                    ballCount += 1
+//                }
+//            }
+//            else{
+//                outCount += 1
+//            }
+//        }
+//
         /**************
         
         
