@@ -170,7 +170,7 @@ q6(soo: [3,4,5,1,2,6])
 //>>에라토스테체 알고리즘을 이용하여  입력된 숫자까지의 모든 소수의 배열을 반환하는 함수
 
 
-//////// 마무리하기
+//////// 마무리하기, 물어보기
 func findprimenum(lastnum: Int) -> [Int] {
     var primenum:[Int] = []
     var atcset:Set<Int> = []
