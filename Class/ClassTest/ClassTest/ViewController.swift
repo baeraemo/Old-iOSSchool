@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         
         cal.comper(atom, tae)
         
-        cal.blood([mazingaZ, lazenca, atom, tae])
+        cal.choiceBlood([mazingaZ, lazenca, atom, tae])
         
         cal.bloodO(mazingaZ, lazenca, atom, tae)
         

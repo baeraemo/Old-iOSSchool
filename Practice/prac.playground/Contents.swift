@@ -40,8 +40,6 @@ var dict1:[String:Int] = [
 
 reQ1(dict: dict1)
 
-//qweqweqwe
-
 //옵셔널 강제 !를 붙히면 풀림
 //inputNum이 한개가 아닌 두개라면?
 //옵셔널 바인딩방법
@@ -56,3 +54,18 @@ func isNumber(inputNum1:String?, inputNum2:String) -> Bool {
     
     
 }
+//divisible 메소드는 int형 배열 array와 int divisor를 매개변수로 받습니다.
+//array의 각 element 중 divisor로 나누어 떨어지는 값만 포함하는 새로운 배열을 만들어서 반환하도록 divisible에 코드를 작성해 보세요.
+//
+//예를들어 array가 {5, 9, 7, 10}이고 divisor가 5이면 {5, 10}을 리턴해야 합니다.
+
+func divisible(a: [Int], b:Int) -> [Int]{
+    var hab:[Int] = []
+    for c in a {
+        if c % b == 0 {
+            hab.append(c)
+        }
+    }
+    return hab
+}
+divisible(a: [5,9,7,10], b: 5)
