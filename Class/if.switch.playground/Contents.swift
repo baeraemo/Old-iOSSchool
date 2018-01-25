@@ -397,10 +397,4 @@ func twojung1(jung1: Int, jung2: Int) -> Double{
     return nanugi
 }
 twojung1(jung1: 6, jung2: 2)
-//시험점수를 입력받아 대학교 grade로 나눠서 반환해주는 함수 (ex: 95 >>> "A+"  /// 80 >>> "B")
-//func sihum(su: Int, )
-
-
-//위에 했습니다
-
 

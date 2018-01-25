@@ -97,7 +97,6 @@ func q4(soo1: [Int]) -> [Int] {
     
 }
 
-//  정답
 //var soo2: [Int] = []
 //
 //for n in soo1{
@@ -123,7 +122,6 @@ func q5(soo1: [Int]) -> [[Int]]{
     return hab
 }
 
-////정답
 //var resultlist:[[Int]] = []
 //for n in 0..<soo1.count{
 //    var firstv = soo1[n]
@@ -135,11 +133,6 @@ func q5(soo1: [Int]) -> [[Int]]{
 //
 //}
 
-
-
-
-
-
 q5(soo1: [1,2,3,4])
 
 
@@ -147,15 +140,15 @@ q5(soo1: [1,2,3,4])
 
 //Level 3
 //정수 타입의 배열을 입력받아서 오름차순으로 정렬된 배열을 만들어 리턴하시오.(정렬 함수 사용x)   (정렬의 효율은 보지 않습니다.)
-////계속 보고 이해하기
+
 func q6(soo: [Int]) -> [Int]{
 var sortedlist = soo
     for index in 0..<sortedlist.count{
-        var miniumnum = sortedlist[index]   //3 = 0                5 = 4
-        var miniumnumindex = index          // 0                         4
-        for selindex in (index+1)..<sortedlist.count{                     //5
-            let selectnum = sortedlist[selindex]       // 1
-            if miniumnum > selectnum{              //               5 > 1
+        var miniumnum = sortedlist[index]
+        var miniumnumindex = index
+        for selindex in (index+1)..<sortedlist.count{
+            let selectnum = sortedlist[selindex]
+            if miniumnum > selectnum{
                 miniumnum = selectnum
                 miniumnumindex = selindex
             }
