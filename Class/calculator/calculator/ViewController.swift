@@ -15,8 +15,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultdisplay: UILabel!
     
     var operationtemp: String = ""
-    
     var firstnum: String = "0"
+//    {
+//        willSet{
+//
+//                firstnumdisplay.text = firstnum
+//        }
+//    }
     var secondnum: String = "0"
     var resultnum: String = "0"
     

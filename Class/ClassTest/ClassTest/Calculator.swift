@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Calculator {
+open class Calculator {
  
     //각 평균 구하기
     func average(student:Person)
