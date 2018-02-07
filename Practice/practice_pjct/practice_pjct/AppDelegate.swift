@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  xx
+//  practice_pjct
 //
-//  Created by ENDERS on 2018. 1. 12..
-//  Copyright © 2018년 TW. All rights reserved.
+//  Created by ENDERS on 2018. 2. 1..
+//  Copyright © 2018년 ENDERS. All rights reserved.
 //
 
 import UIKit
@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
         return true
     }
 

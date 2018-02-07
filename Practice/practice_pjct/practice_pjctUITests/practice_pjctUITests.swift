@@ -1,14 +1,14 @@
 //
-//  Class_PracUITests.swift
-//  Class_PracUITests
+//  practice_pjctUITests.swift
+//  practice_pjctUITests
 //
-//  Created by ENDERS on 2018. 1. 26..
+//  Created by ENDERS on 2018. 2. 1..
 //  Copyright © 2018년 ENDERS. All rights reserved.
 //
 
 import XCTest
 
-class Class_PracUITests: XCTestCase {
+class practice_pjctUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

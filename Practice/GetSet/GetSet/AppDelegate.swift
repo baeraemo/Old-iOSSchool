@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Class_Prac
+//  GetSet
 //
-//  Created by ENDERS on 2018. 1. 26..
+//  Created by ENDERS on 2018. 2. 6..
 //  Copyright © 2018년 ENDERS. All rights reserved.
 //
 

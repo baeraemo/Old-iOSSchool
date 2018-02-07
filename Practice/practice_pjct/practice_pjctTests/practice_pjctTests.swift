@@ -1,15 +1,15 @@
 //
-//  Class_PracTests.swift
-//  Class_PracTests
+//  practice_pjctTests.swift
+//  practice_pjctTests
 //
-//  Created by ENDERS on 2018. 1. 26..
+//  Created by ENDERS on 2018. 2. 1..
 //  Copyright © 2018년 ENDERS. All rights reserved.
 //
 
 import XCTest
-@testable import Class_Prac
+@testable import practice_pjct
 
-class Class_PracTests: XCTestCase {
+class practice_pjctTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
