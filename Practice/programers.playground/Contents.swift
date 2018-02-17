@@ -82,8 +82,8 @@ divisible(a: [5,9,7,10], b: 5)
 //s가 '47330'이라면 [4, 7, 3, 0]을 리턴
 
 func no_coninuous(s: String) -> [Int] {
-    let qw = Int(s)
-    let A:[Int] = [qw!]
+//    let qw = Int(s)
+//    let A:[Int] = [qw!]
     var B:[Int] = []
     
     //    for val in s {
