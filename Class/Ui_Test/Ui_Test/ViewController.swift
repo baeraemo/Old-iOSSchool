@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         return views
     }
     
+    // view + view 시키기
     func viewLink(input: [UIView])
     {
         for index in 0..<input.count
@@ -51,6 +52,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //앞에 view보다 작은 사이즈로 만들기
     func viewFrame(input: [UIView])
     {
         for index in 0..<input.count
