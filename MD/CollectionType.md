@@ -17,9 +17,13 @@ var someInts:[Int] = [1,2,3,4]
 >* 또 다른 축약 문법으로 [Element] 로 표현할 수 있다.
 
 * 현재 배열의 element 수 -> count  
+
 * 빈 배열 확인 -> isEmpty    
+
 * element 추가 -> append   
+
 * element 삽입 -> insert   
+
 * element 삭제 -> remove   
 
 ---
@@ -31,7 +35,7 @@ var someInts:[Int] = [1,2,3,4]
  
 >* Set은 Array와 다르게 축약 문법이 없다.
 
-* Set 리터럴
+1. Set 리터럴
 
 ```swift
 [값1, 값2, 값3]
@@ -46,7 +50,9 @@ var someStrings:Set = [“joo”,”young”]
 
 >* 순서는 정해져 있지 않지만 정렬을 통해 데이터를 원하는 순서대로 가져올 수 있다.   
 
-* Set 집합	연산
+---
+
+2. Set 집합	 연산
 
 <img src="../img/Set.png" width="100%" align="center">
 
@@ -69,7 +75,9 @@ oddDigits.subtract(primeDigits).sort()
 >* 항목의 순서가 중요치 않고 key값을 통해서 데이터를 접근할때 사용한다.
 
 >* 기본 표현은 Dictionary<key, value>로 나타낸다
+
 >* Dictionary Type에 Key값은 Dictionary에서 value를 가져오는데 사용되는 값이다.
+
 >* 또 다른 축약 문법으로 [key:value] 로 표현할 수 있다.
 
 ```swift

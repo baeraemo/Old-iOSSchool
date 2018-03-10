@@ -8,8 +8,9 @@ print(person.name)
 ```
 > 변수 선언 후 초기화 하지 않은 상태를 nil이라 한다.
 
+---
+
 ### !
-> 
 
 ```swift
 var person: Person!
@@ -18,6 +19,8 @@ var age: Int!
 var subjects: [Int]!
 ```
 > 해당 변수에는 값이 항상 존재한다.
+
+---
 
 ### ?
 
@@ -42,6 +45,7 @@ func testFuc(optionalStr:String?) {
     }
 }
 ```
+---
 
 #### 선택적 해제(Optional Binding)
 ```swift
