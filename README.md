@@ -1,24 +1,15 @@
-# BaeTaeWoong_iOS_School6
-[terminal 단축키 정리](./Class/terminal_command.md)
+## Me
+>Name: BaeTaeWoong   
+>Tel: 01041238059   
+>E-Mail: btw0118@gmail.com     
 
-[xcode project 단축키 정리](./Class/xcode_project_command.md)
-
-[함수-1](./Class/function-1.playground)
-[함수-2](./Class/function-2.playground)
-[함수-3](./Class/function-3.playground)
-
-[array와 diction,set](./Class/array.diction.set.playground)
-
-[for문과 while문](./Class/for.while-1.playground)
-
-[if문과 switch문](./Class/if.switch.playground)
-
-[계산기](./Class/calculator/calculator.xcodeproj)
-
-[야구게임](./Class/BaseballGame.xcodeproj)
-
-[Class와 struct](./Class/ClassTest/ClassTest.xcodeproj)
-
-[programers문제](./Practice/programers.playground)
-
-===================실습 내용===================
+## Swift Class
+[MarkDown 사용법](./MD/MarkdownUse.md)   
+[while과 for](./MD/WhileAndFor.md)   
+[Optional](./MD/Optional.md)   
+[함수와 변수](./MD/FuncAndLetVar.md)   
+[Error처리](./MD/Error.md)   
+[Enum](./MD/Enum.md)    
+[Data Save 와 Bundle](./MD/DataSave.md)   
+[CustomTemplate](./MD/CustomTemplate.md)   
+[CollectionType(Array,Set,Dictional](./MD/CollectionType.md)   
