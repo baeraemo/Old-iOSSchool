@@ -22,4 +22,6 @@
 [DelegatePattern](./MD/DelegatePattern.md)   
 [UIScrollView](./MD/UIScrollView.md)      
 [Closure](./MD/Closure.md)   
-[TextualRepresentations와 CollectionFunction](./MD/TextualRepresentationsAndCollectionFunction.md)   
+[TextualRepresentations와 CollectionFunction](./MD/TextualRepresentationsAndCollectionFunction.md)      
+[ARC](./MD/ARC.md)   
+[SubscriptAndExtension](./MD/SubscriptAndExtension.md)   
