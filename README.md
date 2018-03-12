@@ -20,4 +20,6 @@
 [Class와 Struct, override](./MD/ClassesAndStructures.md)   
 [LifeCycle](./MD/ApplicationLifeCycle.md)   
 [DelegatePattern](./MD/DelegatePattern.md)   
-[UIScrollView](./MD/UIScrollView.md)   
+[UIScrollView](./MD/UIScrollView.md)      
+[Closure](./MD/Closure.md)   
+[TextualRepresentations와 CollectionFunction](./MD/TextualRepresentationsAndCollectionFunction.md)   
