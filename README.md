@@ -24,4 +24,5 @@
 [Closure](./MD/Closure.md)   
 [TextualRepresentations와 CollectionFunction](./MD/TextualRepresentationsAndCollectionFunction.md)      
 [ARC](./MD/ARC.md)   
-[SubscriptAndExtension](./MD/SubscriptAndExtension.md)   
+[SubscriptAndExtension](./MD/SubscriptAndExtension.md)      
+[Generic](./MD/Generic.md)   
