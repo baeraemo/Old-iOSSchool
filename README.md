@@ -29,4 +29,6 @@
 [Git](./MD/Git.md)   
 [AutoLayout](./MD/AutoLayout.md)   
 [Notification](./MD/Notification.md)    
-[Singletone](./MD/SingletonePattern.md)
+[Singletone](./MD/SingletonePattern.md)   
+[TapBar](./MD/TapBar.md)   
+[Sandbox](./MD/Sandbox.md)
