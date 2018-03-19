@@ -10,7 +10,7 @@ class NextViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+    //키보드 올라가는 값
     NotificationCenter.default.addObserver(
       forName: NSNotification.Name.UIKeyboardWillShow,
       object: nil,
@@ -33,7 +33,7 @@ class NextViewController: UIViewController {
         self.commentTextField.frame.origin.y += keyboardFrame.size.height
       })
   }
-  
+  //dismiss전에 데이터값을 정리해준다
   @IBAction func didTapDoneButton(_ sender: UIButton) {
     guard let closure = completionClosure else { return }
     closure(textField.text!)

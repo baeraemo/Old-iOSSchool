@@ -3,7 +3,7 @@
 import UIKit
 import PlaygroundSupport
 
-let immutableArray = Array(1...2)
+let immutableArray = Array(1...5)
 print("====================")
 print(immutableArray)
 print("====================")
@@ -22,7 +22,7 @@ print("====================")
 
 
 let filter = immutableArray
-    .enumerated()
+    .enumerated() // index와 value값을 만들어줌
     .map { (idx, num) -> Int in idx * num}
     .filter({ $0 & 1 == 0 })
 print("====================")
@@ -37,8 +37,8 @@ let reduce = immutableArray
 
 let array = ["1j", "2d", "22", "33"]
 
-let m1 = array.map({ Int($0) })
-let f1 = array.flatMap({ Int($0) })
+let m1 = array.map({ Int($0) }) //특정 조건을 걸어둠
+let f1 = array.flatMap({ Int($0) }) //nil값을 안뽑는다
 
 let m2 = array.map({ Int($0) }).first
 let f2 = array.flatMap({ Int($0) }).first
