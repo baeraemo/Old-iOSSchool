@@ -33,13 +33,16 @@
 [TapBar](./MD/TapBar.md)   
 [Sandbox](./MD/Sandbox.md) 미완성  
 [Scheme](./MD/Scheme.md)   
-[MetaType](./MD/MetaType.md) 이해못함
-
+[MetaType](./MD/MetaType.md) 이해못함   
+[ErrorHandling](./Class/ErrorHandling/ErrorHandling.xcodeproj)
+[ErrorHandling.ppt](./ppt/ErrorHandling.key)   
+[enumerated,map,filter,reduce](./Class/highOrderTest.playground)        
+[GetSet,didsetwillset](./Class/GetSet/GetSet.xcodeproj)    
 ## 참고하기
 [에러 검색으로 쉽게 찾기](./ppt/Error.pdf)   
 [prepare와 unwind로 데이터 사용](./Class/Unwind/Unwind.xcodeproj)     
 [버튼 유지,초기화시키기](./img/button.png)   
-[enumerated,map,filter,reduce](./Class/highOrderTest.playground)        
-[GetSet사용법](./Class/GetSet/GetSet.xcodeproj)   
 [FireBase사용법](./Class/firebase/FireBaseTest2/FireBaseTest2.xcworkspace)  
 [Text입력 바로 출력하기,keyboard](./Class/SlackAddWorkspacesUI_Starter/SlackAddWorkspacesUI.xcodeproj)   
+[scheme받는곳](./Class/Scheme/Inscheme/ClassTest.xcodeproj) [scheme보내는곳,다른것도 보낼 수 있음](./Class/Scheme/URLscheme/URLScheme.xcodeproj)   
+
