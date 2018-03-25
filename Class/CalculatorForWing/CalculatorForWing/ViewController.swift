@@ -173,7 +173,7 @@ class ViewController: UIViewController {
         keyPadView.frame = CGRect(x: 0, y: offSetY , width: view.frame.size.width, height: btnWidth*5)
         //Display영역 프레임
         let displayViewHeight:CGFloat = 150
-        offSetY -= displayViewHeight
+        offSetY -= displayViewHeightx
         displayView.frame = CGRect(x: 0, y: offSetY, width: view.frame.size.width, height: displayViewHeight)
         //=======================================
         //<keyPad안 영역>
