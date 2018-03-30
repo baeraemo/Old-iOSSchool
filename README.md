@@ -1,4 +1,4 @@
-## Me!
+## Me
 >Name: BaeTaeWoong   
 >Tel: 01041238059   
 >E-Mail: btw0118@gmail.com     
@@ -52,4 +52,6 @@ CodableExample.playground)
 [Text입력 바로 출력하기,keyboard](./Class/SlackAddWorkspacesUI_Starter/SlackAddWorkspacesUI.xcodeproj)   
 [scheme받는곳](./Class/Scheme/Inscheme/ClassTest.xcodeproj) [scheme보내는곳,다른것도 보낼 수 있음](./Class/Scheme/URLscheme/URLScheme.xcodeproj)   
 [Json변환해서 받기 연습](./Class/JsonTest/JsonTest.xcodeproj)   
-[](./Class/UIDeviceExample/UIDeviceExample.xcodeproj)   
+[디바이스정보보기](./Class/UIDeviceExample/UIDeviceExample.xcodeproj)   
+[pod쓰기](./Class/podinstall/podwriting.png)  [pod만들기](./Class/podinstall/podmake.png)   
+[kakao로그인](./Class/kakaoLogin/test/test.xcodeproj)      
