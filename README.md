@@ -40,8 +40,7 @@
 [GetSet,didsetwillset](./Class/GetSet/GetSet.xcodeproj)    
 [GCD](./MD/GCD.md)   
 [TemplateSet](./MD/TemplateSet.md)   
-[Codable](./Class/codableAndJson/
-CodableExample.playground)   
+[Codable](./Class/codableAndJson/CodableExample.playground)   
 [Json](./Class/codableAndJson/JSONSerialization.playground)
 
 ## 참고하기
